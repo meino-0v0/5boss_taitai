@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+content {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 1080px;
+    width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    position: relative; /* 親要素を基準に */
+}
+
+p{
+	text-align: center;
+	margin-top: 100px;
+	font-weight: 700;
+	font-size: 25px;
+	background-color:rgba(0,0,0,0.70);
+}
+
+.sumi1{
+    position: absolute;
+    top: 55px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi2{
+    position: absolute;
+    top: 225px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi3{
+    position: absolute; 
+    top: 400px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi4{
+    position: absolute; 
+    top: 585px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi5{
+    position: absolute; 
+    top: 755px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+/* 160 */
